@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@500;600;700;1,400&display=swap');
+
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+     background-color: orange;
+ }
+
+ header{
+    background-image: url(images/bosque.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+ }
+
+ .container {
+    max-width: 1100px;
+    margin:0 auto;
+ }
+
+ .menu {
+     position: absolute;
+     top: 10px;
+     left: 0;
+     right: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between; 
+     z-index: 1000;
+ }
+
+ .menu .logo {
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffffff;
+    background-color: grey;
+    border-radius: 5px solid orange;
+ }
+
+ .menu .navbar ul li {
+    position: relative;
+    float: left;
+ }
+
+ .menu .navbar ul li a {
+    font-size: 30px;
+    padding: 20px;
+    color: orange;
+    display: block;
+ }
+
+ .menu .navbar ul li a:hover {
+    color: purple;
+ }
+
+ #menu {
+    display: none;
+ }
+
+ .menu-icono {
+    width: 25px;
+ }
+
+ .menu label {
+    cursor: pointer;
+    display: none;
+ }
+
+ .header-content {
+    display: flex;
+ }
+
+ .content {
+    padding: 150px 150px 0px 0px;
+ }
+
+ .content h1 {
+    color: turquoise;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 55px;
+ }
+
+ .content p {
+    margin-top: 25px;
+    color: #AAB1AA;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+ }
+
+ .btn-1 {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid red;
+    margin: 35px 10px 0px 0px;
+    padding: 15px 25px;
+    color: black;
+    border-radius: 25px;
+ }
+
+ .bn-1:hover {
+    background-color: #AAB1FF;
+ }
+
+ .fondo {
+    display: flex;
+    background-image: url("imagenes/grisdegra.png");
+    padding: 100px ppx 30px 0px;
+    border-radius: 30;
+
+ }
+
+ .services {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ }
+
+ .service {
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px opx 20px #ffffff;
+ }
+
+ .service img {
+    margin-top: -30px;
+ }
+
+ .service h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+ }
+
+ .service p {
+    color: #525254;
+    font-size: 16px;
+ }
+
+ .porfolios {
+    font-style: 100px;
+    text-align: center;
+    color: black;
+ }
+
+ .porfolios h2 {
+    font-family: 300px;
+    
+ }
+
+ .porfolios h3 {
+    font-size: -25px;
+ }
+
+ .porfolio {
+    display: flex;
+    align-items: center;
+ }
+
+ .porfolio img {
+    width: 250px;
+ }
+
+ .porfolio-1 {
+    text-align: left;
+    margin-left: 50px;
+ }
+
+ .porfolio-1 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+ }
+
+ .porfolio-1 p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 25px;
+ }
+
+ .porfolio-2 {
+    text-align: left;
+    margin-right: 50px;
+ }
+
+ .porfolio-2 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+ }
+
+ .porfolio-2 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 25px;
+ }
+
+ .porfolio-3 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 15px;
+ }
+
+ .btn-2 {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: red;
+    color:#ffffff;
+ }
+
+ .btn-2:hover {
+    background-color: red;
+ }
+
+footer {
+    padding: 200px ppx 30px 0px;
+    background-image: url(images/bosque.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-content {
+    display:flex;
+}
+
+.info-price {
+    padding: 35px;
+    text-align: center;
+    background-color: #704285;
+    box-shadow: 0px 0px 25px rgba(15, 45, 65, 0.3);
+    margin: 0px 150px 0px 0px;
+    color: red;
+}
+
+.info-price h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.info-price p {
+    font-size: 16px;
+    color: blanchedalmond;
+}
+
+.info-txt {
+    margin-left: 35px;
+    color: red;
+}
+
+hr {
+    margin: 45px 0px;
+    border: 0.5 solid #0E0E0E;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: space-between;
+    color: purple;
+}
+
+.enlaces h3 {
+    font-size: 35px;
+    background-color: orange;
+}
+
+.enlace {
+    display: flex;
+}
+
+.enlace li a {
+    display: block;
+    margin: 50px;
+    color: black;
+}
+
+.enlace li a:hover {
+    color: purple;
+}
+
+@media (max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    header {
+        height: 0vh;
+        padding: 400px 0px;background-position: center center;
+    }
+    .header-content{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    .content {
+        padding: 0px;
+    }
+    .content h1 {
+        margin-top: 100px;
+        font-size: 45px;
+    }
+    .content p {
+        margin-top: 0px;
+    }
+    .header-cotent img {
+        width: 150px;
+    }
+    .services {
+        flex-direction: column;
+        padding: 50px 30px 0 px 30px;
+    }
+    .services {
+        margin-bottom: 50px;
+    }
+    .porfolios {
+        padding: ppx 30px 30px 30px;
+    }
+    .porfolios h2 {
+        margin-bottom: 45px;
+    }
+    .porfolio {
+        flex-direction: column;
+    }
+    .porfolio img {
+        display: -moz-grid;
+    }
+    .porfolio-1 {
+        text-align: center;
+        margin: 0px 0px 25px 0px;
+    }
+    .porfolio-2 {
+        text-align: center;
+        margin: 0px 0px 25px 0px;
+    }
+    footer {
+        padding: 0px 30px 30px 30px;
+    }
+    .info-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-price {
+        margin: 0px 0px 20px 0 px;
+    }
+    hr {
+        margin: 35px 0px;
+    }
+    .enlaces {
+        flex-direction: column;
+        align-items: center;
+    }
+    .enlace {
+        flex-direction: column;
+    }
+}
+
+.skills-content container img {
+    width: 30%;
+    object-fit: cover;
+    display: block;
+}
+
+.imagen-principal img {
+    width: 15%;
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+    display: block;
+}
+
+.skills-content {
+    display: flex;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding: 5px;
+}
