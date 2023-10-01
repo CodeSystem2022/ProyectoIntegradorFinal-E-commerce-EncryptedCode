@@ -2,7 +2,7 @@
 # Nuestro grupo trabaja con el fin de crear un E-commerce como proyecto integrador final, para la carrera Tecnicatura Universitaria en Programacion
 # Cuarto Semestre 2023.
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFaz8rDbvwgPzQDGFFgfFU_JM2YkIfxXCtPg&usqp=CAU">
+<img src="https://wesvyg.com/wp-content/uploads/2020/05/marketing-transparent-e-commerce.gif">
 
 <h1>
   Integrantes del Equipo:
