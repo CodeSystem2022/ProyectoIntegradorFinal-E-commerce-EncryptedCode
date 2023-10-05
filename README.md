@@ -10,7 +10,6 @@
   * Rocio Pulitta 
   * Roberto Perez Bertoli
   * Lucas Limachi
-  * Andrea LLavel
-  
+  * Andrea LLavel  
 </h1>
 <img src="https://i.pinimg.com/originals/a3/f2/38/a3f238b7943790f2880bb8ec75143796.gif">
