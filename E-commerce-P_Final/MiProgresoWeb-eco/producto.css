@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@500;600;700;1,400&display=swap');
+
+body {
+    background-color: orange;
+    background-image: url(imagenes/fondito13.jpg);
+    background-position-x: center;
+    min-height: 70vmax;
+}
+
+.header{
+   background-image: url(imagenes/per.jpg);
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 70vh;
+   display: flex;
+   align-items: center;
+}
+
+h1 {
+    color: black;
+    background-color: orange;
+    text-transform: uppercase;
+}
+
+.h2, p {
+    color: black;
+    background-color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 30;
+    line-height: 15px;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: magenta;
+    color: black;
+    color: purple;
+}
+
+.btn-2:hover {
+    background-color: red;
+    color: black;
+    font-size: 20px;
+}
+
+.footer {
+    padding: 200px ppx 30px 0px;
+    background-image: url(imagenes/fondito13.jpg);
+    background-color: #ffffff;
+    color: black;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.info-content {
+    display:flex;
+}
+
+.nav {
+    color: purple;
+    background-color: #ffffff;
+}
+
+h2 {
+    background-color: purple;
+    color: orange;
+}
+
+a {
+    background-color: grey;
+    color: #ffffff;
+}
+
+img {
+    background-color: purple;
+}
+
+article {
+    background-color: blueviolet;
+    color: orange;
+    font-size: 20px;
+}
+
+h1 {
+    background-color: purple;
+    color-interpolation-filters: inherit;
+}
+
+a href {
+    color: grey;
+}
+
+
+nav {
+    background-color: grey;
+}
+
+a {
+    background-color: grey;
+    color: purple;
+}
+
+li {
+    background-color: blueviolet;
+}
+
+nav {
+    background-color: blueviolet;
+    color: purple;
+}

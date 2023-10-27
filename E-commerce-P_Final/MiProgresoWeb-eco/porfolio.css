@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@500;600;700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: orange;
+    background-image: url(imagenes/fondito13.jpg);
+    background-position-x: center;
+    min-height: 70vmax;
+}
+
+.header{
+    background-image: url(imagenes/per.jpg);
+    background-position: center bottom;
+    background-attachment: scroll;
+    background-size: auto;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    background-color: purple;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.skills-content {
+    border: none;
+    padding: 2px;
+    height: 135px;
+}
+
+.h3 {
+    font-size: 30px;
+    color: purple;
+    background-color: blanchedalmond;
+}
+
+.skills-content container img {
+    width: 5%;
+    object-fit: cover;
+    display: block;
+    border: none;
+    font-size: 10px;
+    height: 20px;
+    width: 10px;
+}
+
+.imagen-principal img {
+    width: 10%;
+    object-fit: cover;
+    height: 10px;
+    margin-right: 2px;
+    display: block;
+    border-radius: 10%;
+    border-color: purple;
+    border: none;
+}
+
+.skills-content {
+    display: flex;
+    overflow-y: auto;
+    margin-top: 1px;
+    padding: 28px;
+}
+
+h3 {
+    background-image: url(imagenes/per.jpg);
+    background-color: grey;
+    color: black;
+}
+
+img {
+    width: 180px;
+    background-color: purple;
+    color-scheme: 30px;
+}
+
+a {
+    background-color: grey;
+    color: purple;
+}
+
+h4 {
+    background-color: purple;
+    color: black;
+}
+
+i {
+    background-color: purple;
+    font-size: 10px;
+}
+
