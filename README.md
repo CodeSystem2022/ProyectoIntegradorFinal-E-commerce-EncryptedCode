@@ -1,6 +1,10 @@
 # ProyectoIntegradorFinal-E-commerce-EncryptedCode
 # Nuestro grupo trabaja con el fin de crear un E-commerce como proyecto integrador final, para la carrera Tecnicatura Universitaria en Programacion
 # Cuarto Semestre 2023.
+# Para ver la ejecucion del Proyecto, descargue: 
+# MiProgresoWeb-eco
+# Ingrese a:
+# index.html
 
 <img src="https://wesvyg.com/wp-content/uploads/2020/05/marketing-transparent-e-commerce.gif">
 
