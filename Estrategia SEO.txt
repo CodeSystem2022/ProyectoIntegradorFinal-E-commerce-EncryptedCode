@@ -1,5 +1,5 @@
 Desarrollar una estrategia de SEO para una página web implica optimizar varios aspectos técnicos y de contenido para mejorar su visibilidad en los motores de búsqueda. 
-Las siguientes son alguans de las recomendaciones que podemos implementar para mejorar el SEO de nuestro sitio web:
+Las siguientes son algunas de las recomendaciones que podemos implementar para mejorar el SEO de nuestro sitio web:
 
 1.	Etiqueta de título (<title>): Asegúrarse de que el título de nuestro sitio sea relevante y contenga palabras clave relacionadas con el mismo. Se debe evitar el utilizar comillas dentro del título.
 2.	Etiquetas de encabezado (<h1>, <h2>, etc.): Utilizar etiquetas de encabezado para estructurar el contenido de manera jerárquica. Asegurandonos de que los encabezados reflejen el contenido y utilicen palabras clave relevantes.
